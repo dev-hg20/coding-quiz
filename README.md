@@ -2,7 +2,7 @@
 
 ## Description
 
-This application generates a quiz. It presents a series of questions to the users and prompts for an answer. Once the user selects an answer it will automatically check to see if UserAnswer matches CorrectAnswer. This applciation runs in browser and is powered by Javascript.
+This application generates a quiz. It presents a series of questions to the users and prompts for an answer. Once the user selects an answer it will automatically check to see if UserAnswer matches CorrectAnswer. This application runs in browser and is powered by Javascript.
 
 ### Screenshots
 
