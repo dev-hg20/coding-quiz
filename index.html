@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container-lg">
+      <div class="card text-center">
+        <div class="card-header">
+          <a class="nav-link active" id="CodeQuiz" href="#">Code Quiz</a>
+          <a class="nav-link active" id="ViewYourHighScores" href="#"
+            >View Your Highscores</a
+          >
+          <a class="nav-link" id="timer">Timer</a>
+        </div>
+        <div class="card-body">
+          <div id="quiz-container" class="hide">
+            <div id="quiz-questions">Questions</div>
+            <div id="answer-button"></div>
+          </div>
+          <div class="controls">
+            <button id="start">Start</button>
+          </div>
+          <div id="showScore"></div>
+          <div id="scoreBoard"></div>
+        </div>
+        <div class="card-footer text-muted results collapse">
+          <div>
+            <form id="initial-input-form" method="POST">
+              <label for="initial-log">Input initials here:</label>
+              <input type="text" placeholder="  J.D" id="initials" />
+            </form>
+            <ul id="results-log"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
