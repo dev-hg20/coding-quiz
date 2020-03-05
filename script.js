@@ -190,12 +190,15 @@ viewScores.addEventListener("click", function(quizIsFinished) {
 });
 
 codeQuiz.addEventListener("click", function(event) {
-  event.preventDefault();
-  showScore.style.display = "none";
-  startEl.classList.remove("hide");
-  resultsEl.style.display = "none";
-  startQuiz();
-  quizIsFinished();
-  showScore.style.display = "block";
-  resultsEl.style.display = "block";
+  window.location.reload();
 });
+// event.preventDefault();
+// startEl.classList.remove("hide");
+// currentTimer = 50;
+// showScore.style.display = "none";
+// resultsEl.style.display = "none";
+// startQuiz();
+// // quizIsFinished();
+// showScore.style.display = "block";
+// resultsEl.style.display = "block";
+// });

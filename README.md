@@ -28,5 +28,5 @@ If the user decides to view the high score board, it is able to return all the i
 
 ### Links to deployed application
 
-- URL of deployed application: https://dev-hg20.github.io/coding-quiz/
-- URL of GitHub repository: https://github.com/dev-hg20/coding-quiz.git
+- URL of deployed application: https://dev-hg20.github.io/js.password-generator/
+- URL of GitHub repository: https://github.com/dev-hg20/js.password-generator.git
